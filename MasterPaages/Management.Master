@@ -1,0 +1,30 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Management.master.cs" Inherits="LeaveRequest.MasterPaages.Management" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+        <div style="width: 200px; float: left;">
+            <ul>
+                <li><a href="../Management/Default.aspx" runat="server">Management Home</a></li>
+                <li><a href="../Management/Employees.aspx" runat="server">Manage Employees</a></li>
+                <li><a href="../Management/EmployeeType.aspx" runat="server">Manage Employee Type</a></li>
+            </ul>
+
+        </div>
+    </div>
+    <div style="width: 750px; float:left;">
+        <asp:ContentPlaceHolder ID="cpMainContent" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>
+</body>
+</html>
