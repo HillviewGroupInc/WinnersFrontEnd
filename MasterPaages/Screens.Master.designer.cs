@@ -10,7 +10,7 @@
 namespace LeaveRequest.MasterPaages {
     
     
-    public partial class Landing {
+    public partial class Screens {
         
         /// <summary>
         /// head control.
